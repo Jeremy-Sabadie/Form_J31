@@ -1,10 +1,18 @@
-<% if user_signed_in? %>
-<li>
-<%= link_to "Sign out", destroy_user_session_path, method: :delete %></li>
-<h1>Merci de t'être inscrit·e, <%= current_user.email %></h1>
+<div><p id="presentation">Bienvenu sur l'exercice de mise en forme de formulaire du jour n°31.<br>
+		Cette page n'est pas folichonne mais l'exercice se concentre sur la page "Sign up".<br>
+		Tout n'est pas identique au modèle mais j'ai fais ce que j'ai pu.</p></div>
+<div class= "accent">
+<% if user_signed_in? %>		
+		<%= link_to "Sign out", destroy_user_session_path, method: :delete %>
+		
+	<h1 id="merci">Merci de t'être inscrit·e, <%= current_user.email %></h1>
 <% else %>
-<li>
-<%= link_to "Sign in", new_user_session_path %></li>
-<li>
-<%= link_to "Sign up", new_user_registration_path %></li>
+	<div class="butl">
+		<%= link_to "Sign up", new_user_registration_path %>
+	</div>
+	
+	<div class="butl">
+		<%= link_to "Sign in", new_user_session_path %>
+	</div>
 <% end %>
+</div>
