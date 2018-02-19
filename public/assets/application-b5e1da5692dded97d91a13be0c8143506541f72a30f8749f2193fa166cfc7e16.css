@@ -1,0 +1,226 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+body {
+	height: 100vh;
+	width: 100%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size : 20px;
+    background-image:url(fonds.jpg)
+}
+
+.dassault{
+	display: flex;
+	width: 50%;
+    margin: auto;
+    height: 60%;
+    margin-top: 5%;
+}
+
+
+
+h1 {
+	font-size: 300%;
+	font-family: sans-serif;
+	line-height: 0px;
+	text-align: left;
+}
+
+h3{
+	font-size: 75%;
+	line-height: 2pt;
+	text-align: left;
+}
+
+.leftside {
+	width: 70%;
+	background-color: #4985E7;
+	color : white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	height: 100%;
+	border-radius: 7px 0 0 7px;
+	opacity: 0.8;
+}
+
+.title {
+	padding-bottom: 50px;
+	margin-left: 25px;
+	margin-top: 30px;
+	margin-top: -30px;
+}
+
+hr{
+background-color: #50D5AA;
+height: 2px;
+width: 40%;
+border: none;
+float: left;
+}
+
+.pub{
+	line-height: 0pt;
+	margin-top: -30px;
+	margin-left: 5%;
+	color: #E8F0FA;
+}
+
+
+p{
+	font-size: 75%;
+}
+
+
+
+
+.rightside {
+	width: 55%;
+	background-color: white;
+	color : black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 0 7px 7px 0;
+	border: solid;
+	border-color: grey;
+	border-width: 1px;
+}
+
+#form{
+	font-size: 75%;
+	color: #616161;
+}
+
+.formfor{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 70%;
+}
+
+#forget{
+	color: #D0D0D0;
+	font-style: italic;
+}
+
+.signup{
+	background-color: #A8AABA;
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	color: black;
+	font-size: 75%;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.field {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+input {
+    width: 100%;
+    padding: 6px 33px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 4px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+input[type=email] {
+  background-image: url('user.png'); 
+  width: 100%; 
+  margin-left: 0px;
+}
+
+input[type=password] {
+  background-image: url('lock.png');   
+}
+
+
+input[type=submit] {
+  background-color: #4985E7; 
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  height: 6vh;
+  color: white;
+  border-radius: 8px; 
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  height: 6vh;
+  color: black; 
+}
+
+
+.side{
+	width: 110%;
+	background-color: #4985E7;
+	color : white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	height: 110%;
+	border-radius: 7px 0 0 7px;
+}
+
+#merci{
+	font-size: 200%;
+	font-family: sans-serif;
+	line-height: 0px;
+	text-align: left;
+	color: white;
+}
+
+.accent{
+	display: center;
+	width: 100%;
+    margin: auto;
+    height: 100%;
+    margin-top: 20%;
+    text-align: center;
+}
+
+.butl{
+	display: center;
+    margin: auto;
+    margin-left: 20px;
+    text-align: center; 
+    color: white;
+    font-size: 200%;
+    line-height: 50px;
+}
+
+#presentation{
+	font-size: 150%;
+	font-family: sans-serif;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+}
